@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1F1317E21B075C8000348EA /* Arduino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F1317B21B075C8000348EA /* Arduino.cpp */; };
+		D1F1317F21B075C8000348EA /* IC28_OpenSourceHardwareDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F1317C21B075C8000348EA /* IC28_OpenSourceHardwareDemo.cpp */; };
+		D1F1318021B075C8000348EA /* RaspberryPi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F1317D21B075C8000348EA /* RaspberryPi.cpp */; };
+		D1F1318321B07C2E000348EA /* OpenSourceHardware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F1318221B07C2E000348EA /* OpenSourceHardware.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1F1316D21B07574000348EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1F1316F21B07574000348EA /* IC28_OpenSourceHardware */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IC28_OpenSourceHardware; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F1317921B075C8000348EA /* RaspberryPi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaspberryPi.h; sourceTree = "<group>"; };
+		D1F1317A21B075C8000348EA /* Arduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arduino.h; sourceTree = "<group>"; };
+		D1F1317B21B075C8000348EA /* Arduino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arduino.cpp; sourceTree = "<group>"; };
+		D1F1317C21B075C8000348EA /* IC28_OpenSourceHardwareDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IC28_OpenSourceHardwareDemo.cpp; sourceTree = "<group>"; };
+		D1F1317D21B075C8000348EA /* RaspberryPi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RaspberryPi.cpp; sourceTree = "<group>"; };
+		D1F1318121B075EB000348EA /* OpenSourceHardware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSourceHardware.h; sourceTree = "<group>"; };
+		D1F1318221B07C2E000348EA /* OpenSourceHardware.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSourceHardware.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F1316C21B07574000348EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1F1316621B07574000348EA = {
+			isa = PBXGroup;
+			children = (
+				D1F1317121B07574000348EA /* IC28_OpenSourceHardware */,
+				D1F1317021B07574000348EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F1317021B07574000348EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F1316F21B07574000348EA /* IC28_OpenSourceHardware */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F1317121B07574000348EA /* IC28_OpenSourceHardware */ = {
+			isa = PBXGroup;
+			children = (
+				D1F1317B21B075C8000348EA /* Arduino.cpp */,
+				D1F1317A21B075C8000348EA /* Arduino.h */,
+				D1F1317C21B075C8000348EA /* IC28_OpenSourceHardwareDemo.cpp */,
+				D1F1317D21B075C8000348EA /* RaspberryPi.cpp */,
+				D1F1317921B075C8000348EA /* RaspberryPi.h */,
+				D1F1318221B07C2E000348EA /* OpenSourceHardware.cpp */,
+				D1F1318121B075EB000348EA /* OpenSourceHardware.h */,
+			);
+			path = IC28_OpenSourceHardware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F1316E21B07574000348EA /* IC28_OpenSourceHardware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F1317621B07574000348EA /* Build configuration list for PBXNativeTarget "IC28_OpenSourceHardware" */;
+			buildPhases = (
+				D1F1316B21B07574000348EA /* Sources */,
+				D1F1316C21B07574000348EA /* Frameworks */,
+				D1F1316D21B07574000348EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IC28_OpenSourceHardware;
+			productName = IC28_OpenSourceHardware;
+			productReference = D1F1316F21B07574000348EA /* IC28_OpenSourceHardware */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F1316721B07574000348EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kyle Harris";
+				TargetAttributes = {
+					D1F1316E21B07574000348EA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D1F1316A21B07574000348EA /* Build configuration list for PBXProject "IC28_OpenSourceHardware" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1F1316621B07574000348EA;
+			productRefGroup = D1F1317021B07574000348EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F1316E21B07574000348EA /* IC28_OpenSourceHardware */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F1316B21B07574000348EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F1318321B07C2E000348EA /* OpenSourceHardware.cpp in Sources */,
+				D1F1318021B075C8000348EA /* RaspberryPi.cpp in Sources */,
+				D1F1317E21B075C8000348EA /* Arduino.cpp in Sources */,
+				D1F1317F21B075C8000348EA /* IC28_OpenSourceHardwareDemo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1F1317421B07574000348EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1F1317521B07574000348EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1F1317721B07574000348EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1F1317821B07574000348EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F1316A21B07574000348EA /* Build configuration list for PBXProject "IC28_OpenSourceHardware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F1317421B07574000348EA /* Debug */,
+				D1F1317521B07574000348EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F1317621B07574000348EA /* Build configuration list for PBXNativeTarget "IC28_OpenSourceHardware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F1317721B07574000348EA /* Debug */,
+				D1F1317821B07574000348EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F1316721B07574000348EA /* Project object */;
+}

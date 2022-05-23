@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1F0821121A49A1100B51AC5 /* IC25_SurfboardShop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F0820E21A49A1100B51AC5 /* IC25_SurfboardShop.cpp */; };
+		D1F0821221A49A1100B51AC5 /* Surfboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F0820F21A49A1100B51AC5 /* Surfboard.cpp */; };
+		D1F0821521A49B9D00B51AC5 /* SurfboardList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F0821421A49B9D00B51AC5 /* SurfboardList.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1F0820121A4995800B51AC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1F0820321A4995800B51AC5 /* IC25_Surfboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IC25_Surfboard; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0820E21A49A1100B51AC5 /* IC25_SurfboardShop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IC25_SurfboardShop.cpp; path = ../../../../../Downloads/IC25_SurfboardShop/IC25_SurfboardShop.cpp; sourceTree = "<group>"; };
+		D1F0820F21A49A1100B51AC5 /* Surfboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Surfboard.cpp; path = ../../../../../Downloads/IC25_SurfboardShop/Surfboard.cpp; sourceTree = "<group>"; };
+		D1F0821021A49A1100B51AC5 /* Surfboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Surfboard.h; path = ../../../../../Downloads/IC25_SurfboardShop/Surfboard.h; sourceTree = "<group>"; };
+		D1F0821321A49B8000B51AC5 /* SurfboardList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurfboardList.h; sourceTree = "<group>"; };
+		D1F0821421A49B9D00B51AC5 /* SurfboardList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SurfboardList.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F0820021A4995800B51AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1F081FA21A4995800B51AC5 = {
+			isa = PBXGroup;
+			children = (
+				D1F0820521A4995800B51AC5 /* IC25_Surfboard */,
+				D1F0820421A4995800B51AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F0820421A4995800B51AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0820321A4995800B51AC5 /* IC25_Surfboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F0820521A4995800B51AC5 /* IC25_Surfboard */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0820E21A49A1100B51AC5 /* IC25_SurfboardShop.cpp */,
+				D1F0820F21A49A1100B51AC5 /* Surfboard.cpp */,
+				D1F0821021A49A1100B51AC5 /* Surfboard.h */,
+				D1F0821321A49B8000B51AC5 /* SurfboardList.h */,
+				D1F0821421A49B9D00B51AC5 /* SurfboardList.cpp */,
+			);
+			path = IC25_Surfboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F0820221A4995800B51AC5 /* IC25_Surfboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F0820A21A4995800B51AC5 /* Build configuration list for PBXNativeTarget "IC25_Surfboard" */;
+			buildPhases = (
+				D1F081FF21A4995800B51AC5 /* Sources */,
+				D1F0820021A4995800B51AC5 /* Frameworks */,
+				D1F0820121A4995800B51AC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IC25_Surfboard;
+			productName = IC25_Surfboard;
+			productReference = D1F0820321A4995800B51AC5 /* IC25_Surfboard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F081FB21A4995800B51AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kyle Harris";
+				TargetAttributes = {
+					D1F0820221A4995800B51AC5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D1F081FE21A4995800B51AC5 /* Build configuration list for PBXProject "IC25_Surfboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1F081FA21A4995800B51AC5;
+			productRefGroup = D1F0820421A4995800B51AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F0820221A4995800B51AC5 /* IC25_Surfboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F081FF21A4995800B51AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0821221A49A1100B51AC5 /* Surfboard.cpp in Sources */,
+				D1F0821521A49B9D00B51AC5 /* SurfboardList.cpp in Sources */,
+				D1F0821121A49A1100B51AC5 /* IC25_SurfboardShop.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1F0820821A4995800B51AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1F0820921A4995800B51AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1F0820B21A4995800B51AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1F0820C21A4995800B51AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F081FE21A4995800B51AC5 /* Build configuration list for PBXProject "IC25_Surfboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0820821A4995800B51AC5 /* Debug */,
+				D1F0820921A4995800B51AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F0820A21A4995800B51AC5 /* Build configuration list for PBXNativeTarget "IC25_Surfboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0820B21A4995800B51AC5 /* Debug */,
+				D1F0820C21A4995800B51AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F081FB21A4995800B51AC5 /* Project object */;
+}

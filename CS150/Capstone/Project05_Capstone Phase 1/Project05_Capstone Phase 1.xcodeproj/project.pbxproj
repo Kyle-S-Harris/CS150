@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D172E03921B11BE600C5F94A /* XboxControllerList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E02D21B11BE500C5F94A /* XboxControllerList.cpp */; };
+		D172E03A21B11BE600C5F94A /* XboxExclusive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E02E21B11BE500C5F94A /* XboxExclusive.cpp */; };
+		D172E03B21B11BE600C5F94A /* Project05_CapstonePhase1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E02F21B11BE500C5F94A /* Project05_CapstonePhase1.cpp */; };
+		D172E03C21B11BE600C5F94A /* XboxConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E03021B11BE500C5F94A /* XboxConsole.cpp */; };
+		D172E03D21B11BE600C5F94A /* XboxController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E03221B11BE500C5F94A /* XboxController.cpp */; };
+		D172E03E21B11BE600C5F94A /* XboxConsoleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E03721B11BE600C5F94A /* XboxConsoleList.cpp */; };
+		D172E03F21B11BE600C5F94A /* XboxExclusiveList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D172E03821B11BE600C5F94A /* XboxExclusiveList.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D172E02021B11BA500C5F94A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D172E02221B11BA500C5F94A /* Project05_Capstone Phase 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project05_Capstone Phase 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172E02C21B11BE500C5F94A /* XboxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxController.h; sourceTree = "<group>"; };
+		D172E02D21B11BE500C5F94A /* XboxControllerList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxControllerList.cpp; sourceTree = "<group>"; };
+		D172E02E21B11BE500C5F94A /* XboxExclusive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxExclusive.cpp; sourceTree = "<group>"; };
+		D172E02F21B11BE500C5F94A /* Project05_CapstonePhase1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project05_CapstonePhase1.cpp; sourceTree = "<group>"; };
+		D172E03021B11BE500C5F94A /* XboxConsole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxConsole.cpp; sourceTree = "<group>"; };
+		D172E03121B11BE500C5F94A /* XboxConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxConsole.h; sourceTree = "<group>"; };
+		D172E03221B11BE500C5F94A /* XboxController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxController.cpp; sourceTree = "<group>"; };
+		D172E03321B11BE500C5F94A /* XboxControllerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxControllerList.h; sourceTree = "<group>"; };
+		D172E03421B11BE500C5F94A /* XboxExclusiveList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxExclusiveList.h; sourceTree = "<group>"; };
+		D172E03521B11BE500C5F94A /* XboxConsoleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxConsoleList.h; sourceTree = "<group>"; };
+		D172E03621B11BE500C5F94A /* XboxExclusive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxExclusive.h; sourceTree = "<group>"; };
+		D172E03721B11BE600C5F94A /* XboxConsoleList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxConsoleList.cpp; sourceTree = "<group>"; };
+		D172E03821B11BE600C5F94A /* XboxExclusiveList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxExclusiveList.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D172E01F21B11BA500C5F94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D172E01921B11BA500C5F94A = {
+			isa = PBXGroup;
+			children = (
+				D172E02421B11BA500C5F94A /* Project05_Capstone Phase 1 */,
+				D172E02321B11BA500C5F94A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D172E02321B11BA500C5F94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D172E02221B11BA500C5F94A /* Project05_Capstone Phase 1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D172E02421B11BA500C5F94A /* Project05_Capstone Phase 1 */ = {
+			isa = PBXGroup;
+			children = (
+				D172E02F21B11BE500C5F94A /* Project05_CapstonePhase1.cpp */,
+				D172E03021B11BE500C5F94A /* XboxConsole.cpp */,
+				D172E03121B11BE500C5F94A /* XboxConsole.h */,
+				D172E03721B11BE600C5F94A /* XboxConsoleList.cpp */,
+				D172E03521B11BE500C5F94A /* XboxConsoleList.h */,
+				D172E03221B11BE500C5F94A /* XboxController.cpp */,
+				D172E02C21B11BE500C5F94A /* XboxController.h */,
+				D172E02D21B11BE500C5F94A /* XboxControllerList.cpp */,
+				D172E03321B11BE500C5F94A /* XboxControllerList.h */,
+				D172E02E21B11BE500C5F94A /* XboxExclusive.cpp */,
+				D172E03621B11BE500C5F94A /* XboxExclusive.h */,
+				D172E03821B11BE600C5F94A /* XboxExclusiveList.cpp */,
+				D172E03421B11BE500C5F94A /* XboxExclusiveList.h */,
+			);
+			path = "Project05_Capstone Phase 1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D172E02121B11BA500C5F94A /* Project05_Capstone Phase 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D172E02921B11BA500C5F94A /* Build configuration list for PBXNativeTarget "Project05_Capstone Phase 1" */;
+			buildPhases = (
+				D172E01E21B11BA500C5F94A /* Sources */,
+				D172E01F21B11BA500C5F94A /* Frameworks */,
+				D172E02021B11BA500C5F94A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project05_Capstone Phase 1";
+			productName = "Project05_Capstone Phase 1";
+			productReference = D172E02221B11BA500C5F94A /* Project05_Capstone Phase 1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D172E01A21B11BA500C5F94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kyle Harris";
+				TargetAttributes = {
+					D172E02121B11BA500C5F94A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D172E01D21B11BA500C5F94A /* Build configuration list for PBXProject "Project05_Capstone Phase 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D172E01921B11BA500C5F94A;
+			productRefGroup = D172E02321B11BA500C5F94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D172E02121B11BA500C5F94A /* Project05_Capstone Phase 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D172E01E21B11BA500C5F94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172E03C21B11BE600C5F94A /* XboxConsole.cpp in Sources */,
+				D172E03F21B11BE600C5F94A /* XboxExclusiveList.cpp in Sources */,
+				D172E03D21B11BE600C5F94A /* XboxController.cpp in Sources */,
+				D172E03921B11BE600C5F94A /* XboxControllerList.cpp in Sources */,
+				D172E03A21B11BE600C5F94A /* XboxExclusive.cpp in Sources */,
+				D172E03E21B11BE600C5F94A /* XboxConsoleList.cpp in Sources */,
+				D172E03B21B11BE600C5F94A /* Project05_CapstonePhase1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D172E02721B11BA500C5F94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D172E02821B11BA500C5F94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D172E02A21B11BA500C5F94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D172E02B21B11BA500C5F94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D172E01D21B11BA500C5F94A /* Build configuration list for PBXProject "Project05_Capstone Phase 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172E02721B11BA500C5F94A /* Debug */,
+				D172E02821B11BA500C5F94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D172E02921B11BA500C5F94A /* Build configuration list for PBXNativeTarget "Project05_Capstone Phase 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172E02A21B11BA500C5F94A /* Debug */,
+				D172E02B21B11BA500C5F94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D172E01A21B11BA500C5F94A /* Project object */;
+}

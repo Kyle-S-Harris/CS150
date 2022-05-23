@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FFAB6E21B9B22200D35C98 /* XboxConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB6221B9B22200D35C98 /* XboxConsole.cpp */; };
+		D1FFAB6F21B9B22200D35C98 /* XboxConsoleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB6721B9B22200D35C98 /* XboxConsoleList.cpp */; };
+		D1FFAB7021B9B22200D35C98 /* CapstonePhase2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB6821B9B22200D35C98 /* CapstonePhase2.cpp */; };
+		D1FFAB7621B9B9A800D35C98 /* Console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB7521B9B9A800D35C98 /* Console.cpp */; };
+		D1FFAB7D21B9C64F00D35C98 /* PlaystationConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB7C21B9C64F00D35C98 /* PlaystationConsole.cpp */; };
+		D1FFAB7F21B9C74D00D35C98 /* PlaystationConsoleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1FFAB7E21B9C74D00D35C98 /* PlaystationConsoleList.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1FFAB5421B9B19500D35C98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1FFAB5621B9B19500D35C98 /* CapstonePhase2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CapstonePhase2; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFAB6221B9B22200D35C98 /* XboxConsole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxConsole.cpp; sourceTree = "<group>"; };
+		D1FFAB6421B9B22200D35C98 /* XboxConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxConsole.h; sourceTree = "<group>"; };
+		D1FFAB6621B9B22200D35C98 /* XboxConsoleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxConsoleList.h; sourceTree = "<group>"; };
+		D1FFAB6721B9B22200D35C98 /* XboxConsoleList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XboxConsoleList.cpp; sourceTree = "<group>"; };
+		D1FFAB6821B9B22200D35C98 /* CapstonePhase2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CapstonePhase2.cpp; sourceTree = "<group>"; };
+		D1FFAB7421B9B4A100D35C98 /* Console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		D1FFAB7521B9B9A800D35C98 /* Console.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Console.cpp; sourceTree = "<group>"; };
+		D1FFAB7721B9C22D00D35C98 /* PlaystationConsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaystationConsole.h; sourceTree = "<group>"; };
+		D1FFAB7B21B9C4AD00D35C98 /* PlaystationConsoleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaystationConsoleList.h; sourceTree = "<group>"; };
+		D1FFAB7C21B9C64F00D35C98 /* PlaystationConsole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaystationConsole.cpp; sourceTree = "<group>"; };
+		D1FFAB7E21B9C74D00D35C98 /* PlaystationConsoleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaystationConsoleList.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FFAB5321B9B19500D35C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1FFAB4D21B9B19500D35C98 = {
+			isa = PBXGroup;
+			children = (
+				D1FFAB5821B9B19500D35C98 /* CapstonePhase2 */,
+				D1FFAB5721B9B19500D35C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FFAB5721B9B19500D35C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFAB5621B9B19500D35C98 /* CapstonePhase2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FFAB5821B9B19500D35C98 /* CapstonePhase2 */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFAB6821B9B22200D35C98 /* CapstonePhase2.cpp */,
+				D1FFAB6221B9B22200D35C98 /* XboxConsole.cpp */,
+				D1FFAB6421B9B22200D35C98 /* XboxConsole.h */,
+				D1FFAB6721B9B22200D35C98 /* XboxConsoleList.cpp */,
+				D1FFAB6621B9B22200D35C98 /* XboxConsoleList.h */,
+				D1FFAB7421B9B4A100D35C98 /* Console.h */,
+				D1FFAB7521B9B9A800D35C98 /* Console.cpp */,
+				D1FFAB7721B9C22D00D35C98 /* PlaystationConsole.h */,
+				D1FFAB7C21B9C64F00D35C98 /* PlaystationConsole.cpp */,
+				D1FFAB7B21B9C4AD00D35C98 /* PlaystationConsoleList.h */,
+				D1FFAB7E21B9C74D00D35C98 /* PlaystationConsoleList.cpp */,
+			);
+			path = CapstonePhase2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FFAB5521B9B19500D35C98 /* CapstonePhase2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFAB5D21B9B19500D35C98 /* Build configuration list for PBXNativeTarget "CapstonePhase2" */;
+			buildPhases = (
+				D1FFAB5221B9B19500D35C98 /* Sources */,
+				D1FFAB5321B9B19500D35C98 /* Frameworks */,
+				D1FFAB5421B9B19500D35C98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapstonePhase2;
+			productName = CapstonePhase2;
+			productReference = D1FFAB5621B9B19500D35C98 /* CapstonePhase2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FFAB4E21B9B19500D35C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kyle Harris";
+				TargetAttributes = {
+					D1FFAB5521B9B19500D35C98 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D1FFAB5121B9B19500D35C98 /* Build configuration list for PBXProject "CapstonePhase2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1FFAB4D21B9B19500D35C98;
+			productRefGroup = D1FFAB5721B9B19500D35C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FFAB5521B9B19500D35C98 /* CapstonePhase2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FFAB5221B9B19500D35C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFAB7F21B9C74D00D35C98 /* PlaystationConsoleList.cpp in Sources */,
+				D1FFAB6E21B9B22200D35C98 /* XboxConsole.cpp in Sources */,
+				D1FFAB7D21B9C64F00D35C98 /* PlaystationConsole.cpp in Sources */,
+				D1FFAB6F21B9B22200D35C98 /* XboxConsoleList.cpp in Sources */,
+				D1FFAB7021B9B22200D35C98 /* CapstonePhase2.cpp in Sources */,
+				D1FFAB7621B9B9A800D35C98 /* Console.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1FFAB5B21B9B19500D35C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1FFAB5C21B9B19500D35C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1FFAB5E21B9B19500D35C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1FFAB5F21B9B19500D35C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FFAB5121B9B19500D35C98 /* Build configuration list for PBXProject "CapstonePhase2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFAB5B21B9B19500D35C98 /* Debug */,
+				D1FFAB5C21B9B19500D35C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFAB5D21B9B19500D35C98 /* Build configuration list for PBXNativeTarget "CapstonePhase2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFAB5E21B9B19500D35C98 /* Debug */,
+				D1FFAB5F21B9B19500D35C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FFAB4E21B9B19500D35C98 /* Project object */;
+}
